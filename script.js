@@ -89,7 +89,7 @@ barIcon.addEventListener("click", function (e) {
   sidebar.style.height = `${screen.height}px`;
   sidebar.style.transform = `translateX(${0}px)`;
   sidebar.style.animation = `none`;
-  body.style.transform = `translateX(${250}px)`;
+  body.style.transform = `translateX(${330}px)`;
   body.style.animationName = "smooth-main-open";
   body.style.animationDuration = `${0.7}s`;
   navLayer.style.display = "block";
@@ -103,7 +103,7 @@ barIcon.addEventListener("click", function (e) {
 //closing respo navbar
 
 navLayer.addEventListener("click", function (e) {
-  sidebar.style.transform = `translateX(${-250}px)`;
+  sidebar.style.transform = `translateX(${-330}px)`;
   sidebar.style.animationName = "smooth-sidebar-close";
   sidebar.style.animationDuration = `${2.9}s`;
   body.style.transform = `translateX(${0}px)`;
